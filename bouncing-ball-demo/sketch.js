@@ -9,3 +9,10 @@ function draw() {
 circle(200,120,60);
   
 }
+let xPos = 40;
+{
+  
+  circle(xPos, 200, 50)
+  
+  // xPos = xPos + 1
+}
