@@ -11,7 +11,7 @@ function draw() {
   background(220);
 
   if (xSpeed ==2) 
-  fill(20)
+  fill("purple")
 
 circle(xPos, yPos, 60);
   
