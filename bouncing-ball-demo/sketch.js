@@ -8,8 +8,7 @@ function setup() {
 function draw() {
   background(220);
 
-
-
+  
 circle(xPos, yPos, 60);
   
 xPos += 1;
