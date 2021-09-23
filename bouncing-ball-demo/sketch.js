@@ -14,5 +14,5 @@ circle(xPos, yPos, 60);
 xPos += 1;
 
 if (xPos == 360)
- xPos -=1
+ xPos -=320
 }
