@@ -1,5 +1,4 @@
 
-
 function setup() {
   createCanvas(400, 400);
 }
@@ -7,32 +6,28 @@ function setup() {
 function draw() {
   background(220);
 circle(mouseX, mouseY, 50);
-  
 if (mouseX > 200 && mouseY < 200)
 fill("red")
-}
 
-function draw(){
+
+function draw()
   background(220);
 circle(mouseX, mouseY, 50);
-{if (mouseX < 200 && mouseY > 200)
+if (mouseX < 200 && mouseY > 200)
   fill("red")
-}
 
-function draw() {
+
+function draw() 
   background(220);
 circle(mouseX, mouseY, 50);
-{if (mouseX > 200 && mouseY > 200)
+if (mouseX > 200 && mouseY > 200)
   fill("white")
 
-  function draw() {
-    background(220);
-  circle(mouseX, mouseY, 50);
-}
 
-function draw() {}
+
+function draw()
   background(220);
 circle(mouseX, mouseY, 50);
-{if (mouseX < 200 && mouseY < 200)
+if (mouseX < 200 && mouseY < 200)
   fill("white")
 }
