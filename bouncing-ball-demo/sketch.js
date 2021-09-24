@@ -11,9 +11,9 @@ function draw() {
   background(220);
 
   if (xSpeed ==2) 
-  fill("purple")
+  fill("red")
 
-circle(xPos, yPos, 60);
+circle(xPos, yPos, 60)
   
 yPos += ySpeed
 xPos += xSpeed
