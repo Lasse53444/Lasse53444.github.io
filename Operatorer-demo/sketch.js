@@ -4,30 +4,10 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+if (mouseX < 200 && mouseY > 200) {
+fill("red");
+} else {
+  fill("white") 
+} 
 circle(mouseX, mouseY, 50);
-if (mouseX > 200 && mouseY < 200)
-fill("red")
-
-
-function draw()
-  background(220);
-circle(mouseX, mouseY, 50);
-if (mouseX < 200 && mouseY > 200)
-  fill("red")
-
-
-function draw() 
-  background(220);
-circle(mouseX, mouseY, 50);
-if (mouseX > 200 && mouseY > 200)
-  fill("white")
-
-
-
-function draw()
-  background(220);
-circle(mouseX, mouseY, 50);
-if (mouseX < 200 && mouseY < 200)
-  fill("white")
 }
