@@ -4,7 +4,8 @@ function setup() {
 }
 
 function draw() {
-if (mouseX < 200 && mouseY > 200) {
+background(220);
+if (mouseX < 200 && mouseY > 200 || mouseX > 200 && mouseY <200) {
 fill("red");
 } else {
   fill("white") 
