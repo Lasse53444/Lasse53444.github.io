@@ -2,9 +2,8 @@
 
 function setup() {
   createCanvas(400, 500);
-}
+  text("Output is in console", 20, 20)
 
-function draw() {
-  background(220);
-  
+  console.log("Loop demo");
+
 }
