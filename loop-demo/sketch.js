@@ -25,14 +25,24 @@ function setup() {
   console.log(xSum)
 
   console.log("output opg 2");
-}
+
 
 for (let i = 2; i <= 10; i++) {
   console.log(i + "-tabellen")
 
-  for(let m = 1; m <= 10; m++){
-  let result = i * m
-  console.log(result)
+  for (let m = 1; m <= 10; m++) {
+    let result = i * m
+    console.log(result)
+  }
+  console.log("output opg 3")
 }
-console.log("output opg 3")
+
+console.log("y=3*x*x+6*x+9")
+for (let i = 0; i <= 10; i++) {
+  let x = i * 10
+  let y = 3 * x * x + 6 * x + 9
+
+  console.log(y)
+}
+console.log("output opg 4")
 }
