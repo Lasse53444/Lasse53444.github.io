@@ -27,6 +27,12 @@ function setup() {
   console.log("output opg 2");
 }
 
-for(let i = 2; 1 <= 20; i+=2){
-  console.log(i)
+for (let i = 2; i <= 10; i++) {
+  console.log(i + "-tabellen")
+
+  for(let m = 1; m <= 10; m++){
+  let result = i * m
+  console.log(result)
+}
+console.log("output opg 3")
 }
