@@ -2,3 +2,4 @@
 - [My Circle](stickman-demo/)
 - [Bouncy ball](bouncing-ball-demo/)
 - [Logiske operatorer](Operatorer-demo/)
+- [Loop](loop-demo/)
