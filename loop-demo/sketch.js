@@ -11,21 +11,22 @@ function setup() {
   let i = 10
 
   while (i > 0) {
-    console.log("while demo" + i);
+    console.log(i);
 
     i -= 1
   }
   console.log("output opg 1");
 
-  //få j til at ændre sig i en løkke og brug den som variabel til j
-  let j = 0
-  let n = 0
-  let answer = n + j
-  while (j > 0) {
-    console.log("while demo" + j);
 
-    j += 1
-
+  let xSum = 0
+  for (let x = 1; x <= 20; x++) {
+    xSum = xSum + x
   }
+  console.log(xSum)
+
   console.log("output opg 2");
+}
+
+for(let i = 2; 1 <= 20; i+=2){
+  console.log(i)
 }
