@@ -3,3 +3,4 @@
 - [Bouncy ball](bouncing-ball-demo/)
 - [Logiske operatorer](Operatorer-demo/)
 - [Loop](loop-demo/)
+- [Event](event-demo/)
