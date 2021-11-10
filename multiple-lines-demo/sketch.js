@@ -1,39 +1,24 @@
-let myFillColor = 'black'
+let xStart = 0
+let yStart = 0
+let xEnd = 0
+let yEnd = 0
 
 function setup() {
   createCanvas(windowWidth, windowHeight)
-  rectMode(CENTER)
+  strokeWeight(5)
 }
 
 function draw() {
   background(220);
-  let x = mouseX
-  let y = mouseY
-  let w = 80
-
-  fill(myFillColor)
-  if (keyIsPressed) {
-    rect(x, y, w)
-  } else {
-    circle(x, y, w)
+  
+  if(mouseIsPressed){
+    xEnd = mouseX
+    yEnd = mouseY
   }
-}
-
-function keyPressed() {
-  console.log("pressed", key)
-  if ('b' == key) {
-    myFillColor = 'blue'
-  }
-  if ('r' == key) {
-    myFillColor = 'red'
-  }
-}
-
-function keyReleased() {
-  console.log("released", key)
+  line(xStart, yStart, xEnd, yEnd)
 }
 
 function mousePressed() {
-  console.log("mouse pressed")
-  myFillColor = 'black'
+  xStart = mouseX
+  yStart = mouseY
 }
