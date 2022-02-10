@@ -5,3 +5,4 @@
 - [Loop](loop-demo/)
 - [Event](event-demo/)
 - [Terningkast](terningkast-demo/)
+- [Asteroids game](https://lasse53444.github.io/asteroid-game/)
